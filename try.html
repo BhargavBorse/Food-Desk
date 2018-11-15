@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".hide").click(function(){
+        $("div#demo").remove();
+    });
+     
+  });
+</script>
+</head>
+<body>
+
+<button class="hide">Hide the elements inside div</button>
+
+<div id="demo">
+<p>Inside div- This is demo text.</p>
+<p>Inside div- This is demo text.</p>
+</div>
+<span>
+<p>Inside span- This is demo text.</p>
+<p>Inside span- This is demo text.</p>
+</span>
+</body>
+</html>
